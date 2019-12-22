@@ -1,0 +1,35 @@
+/* General background colors */
+.light-gray-bg { background-color: #ccc; }
+
+.lighter-gray-bg { background-color: #e6e6e6; }
+
+.gray-bg { background-color: #808080; }
+
+.dark-gray-bg { background-color: #4d4d4d; }
+
+/* Header section */
+
+/* Header container */
+.smashing-header {
+  /* Box model */
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100vw;
+  height: 215px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* Main section */
+.main-section {
+  /* Positioning */
+  position: relative;
+
+  /* Box model */
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
