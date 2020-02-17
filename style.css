@@ -197,7 +197,7 @@
   border-radius: 15px;
 }
 
-.row4{
+.row4 {
   /* Box model */
   box-sizing: border-box;
   display: grid;
@@ -209,7 +209,7 @@
 
 /* Ethical design section */
 
-.ethical-design{
+.ethical-design {
   /* Box model */
   box-sizing: border-box;
   width: 100vw;
@@ -239,6 +239,7 @@
   grid-row: 1/2;
 }
 
+/* First row */
 .first-left {
   /* Box model */
   box-sizing: border-box;
@@ -259,7 +260,8 @@
   grid-row: 2/3;
 }
 
-.second-left{
+/* Second row */
+.second-left {
   /* Box model */
   box-sizing: border-box;
   display: grid;
@@ -279,6 +281,7 @@
   grid-row: 3/4;
 }
 
+/* Third row */
 .third-left {
   /* Box model */
   box-sizing: border-box;
@@ -307,4 +310,57 @@
   height: 100%;
   grid-column: 1/3;
   grid-row: 5/6;
+}
+
+/* Featured book section */
+.featured-book {
+  /* Box model */
+  box-sizing: border-box;
+  display: grid;
+  width: 100vw;
+  height: 500px;
+}
+
+/* Curated posts section */
+
+/* Container class */
+.curated-posts-container {
+  /* Box model */
+  box-sizing: border-box;
+  display: grid;
+  width: 100vw;
+  height: 2250px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.curated-post1 {
+  /* Box model */
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  grid-column: 1/2;
+}
+
+.curated-post2 {
+  /* Box model */
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  grid-column: 2/3;
+}
+
+.curated-post3 {
+  /* Box model */
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  grid-column: 3/4;
+}
+
+.curated-post4 {
+  /* Box model */
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  grid-column: 4/5;
 }
