@@ -91,38 +91,53 @@
   grid-template-rows: 666px 700px 700px auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100vw;
-  height: 2400px;
+  height: 2300px;
 }
 
 /* First row */
 .row1-first {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
   width: 100%;
   height: 100%;
   grid-column: 1/2;
   grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .row1-second {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
   width: 100%;
   height: 100%;
   grid-column: 2/3;
   grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .row1-third {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
   width: 100%;
   height: 100%;
   grid-column: 3/4;
   grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .ads-sponsor {
@@ -138,63 +153,89 @@
 .row2-first {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
+  display: flex;
   width: 100%;
   height: 100%;
   grid-row: 2/3;
   grid-column: 1/3;
   border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .row2-second {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
   width: 100%;
   height: 100%;
   grid-column: 3/4;
   grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .row2-third {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
   width: 100%;
   height: 100%;
   grid-row: 2/3;
   grid-column: 4/5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .row3-first {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
   width: 100%;
   height: 100%;
   grid-row: 3/4;
   grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .row3-second {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
   width: 100%;
   height: 100%;
   grid-row: 3/4;
   grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .row3-third {
   /* Box model */
   box-sizing: border-box;
-  display: grid;
+  display: flex;
   width: 100%;
   height: 100%;
   grid-column: 3/5;
   grid-row: 3/4;
   border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .row4 {
@@ -205,10 +246,79 @@
   height: 100%;
   grid-row: 4/4;
   grid-column: 1/5;
+  align-items: center;
+  justify-content: center;
+}
+
+.latest-circle-container {
+  /* Box model */
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-circle {
+  /* Box model */
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.latest-smashing-heading {
+  /* Typography */
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  color: white;
+}
+
+.latest-smashing-heading:hover {
+  /* Typography */
+  color: white;
+}
+
+.latest-smashing-text {
+  /* Typography */
+  color: white;
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.latest-smashing-btn {
+  /* Box model */
+  background-color: white;
+  width: 340px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.latest-smashing-article-heading {
+  /* Typography */
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #333;
+}
+
+.latest-smashing-article-heading:hover {
+  /* Typography */
+  color: #d33a2c;
+}
+
+.latest-smashing-article-text {
+  /* Typography */
+  font-size: 22px;
+  line-height: 36px;
+  color: #333;
+  font-weight: 400;
 }
 
 /* Ethical design section */
 
+/* Ethical design container */
 .ethical-design {
   /* Box model */
   box-sizing: border-box;
@@ -488,7 +598,7 @@
   color: white;
 }
 
-.featured-book-text{
+.featured-book-text {
   /* Typography */
   color: white;
   font-size: 22px;
