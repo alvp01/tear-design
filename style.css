@@ -600,7 +600,11 @@ body {
 }
 
 .curated-link {
-  color: #006fc6;
+  color: #333;
+}
+
+.curated-link:hover {
+  color: #333;
 }
 
 .newsletter-container {
